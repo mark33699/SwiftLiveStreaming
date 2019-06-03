@@ -8,13 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+//let defineURL = "rtmp://192.168.50.236:1935/rtmplive/room"
+let defineURL = "rtmp://live.hkstv.hk.lxdns.com/live/hks1"
 
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
